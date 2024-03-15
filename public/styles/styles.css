@@ -37,6 +37,8 @@
     --blue--400: #38bdf8;
     --purple--200: #ddd6fe;
     --purple--400: #a78bfa;
+    --pink--200: #fbcfe8;
+    --pink--400: #fb719d;
 }
 
 
@@ -87,7 +89,7 @@ ul, li, a {
 /* ---------------- Main - Blog Post ---------------- */
 
 .main__blogpost--container {
-    margin: 0 auto;
+    margin: 2em auto;
     display: grid;
     grid-template-columns: 1fr;
     gap: 2em;
