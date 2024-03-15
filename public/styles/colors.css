@@ -1,0 +1,25 @@
+/* ---------------- Main - Colors ---------------- */
+
+.red {
+    background-color: var(--red--400);
+    & div{
+        background-color: var(--red--200);
+    }
+    & p:nth-of-type(1) {
+        color: var(--red--200);
+    }
+    & a {
+        color: var(--red--400);
+    }
+}
+
+.orange {
+    background-color: var(--orange--400);
+    & div{
+        background-color: var(--orange--200);
+    } & p:nth-of-type(1) {
+        color: var(--orange--200);
+    } & a {
+        color: var(--orange--400);
+    }
+}

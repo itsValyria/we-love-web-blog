@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: 'MuseoSans';
-    src: url(assets/fonts/MuseoSans.otf);
+    src: url(/assets/fonts/MuseoSans.otf);
 }
 
 @font-face {
     font-family: 'GilroyLight';
-    src: url(assets/fonts/Gilroy-Light.otf);
+    src: url(/assets/fonts/Gilroy-Light.otf);
 }
 
 @font-face {
     font-family: 'GilroyBold';
-    src: url(assets/fonts/Gilroy-ExtraBold.ttf);
+    src: url(/assets/fonts/Gilroy-ExtraBold.ttf);
 }
 
 /* ---------------- Root ---------------- */
@@ -27,6 +27,16 @@
 
     --red--200: #fecaca;
     --red--400: #f87171;
+    --orange--200: #fed7aa;
+    --orange--400: #fb923c;
+    --yellow--200: #fde68a;
+    --yellow--400: #fbbf24;
+    --green--200: #d9f99d;
+    --green--400: #a3e635;
+    --blue--200: #bae6fd;
+    --blue--400: #38bdf8;
+    --purple--200: #ddd6fe;
+    --purple--400: #a78bfa;
 }
 
 
@@ -78,6 +88,9 @@ ul, li, a {
 
 .main__blogpost--container {
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
 }
 
 .main__blogpost {
@@ -85,10 +98,9 @@ ul, li, a {
     flex-direction: column;
     margin: 0 auto;
     padding: 1em;
-    height: 24em;
+    height: 26em;
     width: 18em;
     color: var(--grey--000);
-    background-color: var(--red--400);
     border-radius: 8px;
 }
 
@@ -107,7 +119,6 @@ ul, li, a {
 }
 
 .main__blogpost--info {
-    opacity: 0.5;
     margin: 0;
 }
 
@@ -117,19 +128,18 @@ ul, li, a {
 
 .main__blogpost--link {
     background-color: var(--grey--000);
-    color: var(--red--400);
     border-radius: 8px;
     padding: 0.4em;
     width: max-content;
     display: block;
+    margin: 1em 0;
 }
 
 .main__blogpost--shadow {
-    height: 24em;
+    height: 26em;
     width: 18em;
     padding: 0.8em;
     border-radius: 8px;
-    background-color: var(--red--200);
     position: absolute;
     z-index: -1;
 }
