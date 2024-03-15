@@ -1,0 +1,139 @@
+/* ---------------- Import ---------------- */
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url(assets/fonts/MuseoSans.otf);
+}
+
+@font-face {
+    font-family: 'GilroyLight';
+    src: url(assets/fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+    font-family: 'GilroyBold';
+    src: url(assets/fonts/Gilroy-ExtraBold.ttf);
+}
+
+/* ---------------- Root ---------------- */
+
+:root {
+    --grey--000: #fff;
+    --grey--200: #e4e4e7;
+    --grey--400: #a1a1aa;
+    --grey--600: #52525b;
+    --grey--800: #27272a;
+    --grey--1000: #000;
+
+    --red--200: #fecaca;
+    --red--400: #f87171;
+}
+
+
+/* ---------------- Elements ---------------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'MuseoSans';
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'GilroyLight';
+}
+
+ul, li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: unset;
+    padding: 0;
+    margin: 0;
+}
+
+/* ---------------- Header ---------------- */
+
+/* ---------------- Main - General ---------------- */
+
+.main__landing {
+    margin: 2em 0;
+}
+
+.main__landing--title {
+    font-size: 3em;
+    margin: 0 auto;
+    width: max-content;
+    color: var(--red--400);
+    line-height: 1.2;
+}
+
+.main__landing--title:nth-of-type(2) {
+    font-family: 'GilroyBold';
+}
+
+/* ---------------- Main - Blog Post ---------------- */
+
+.main__blogpost--container {
+    margin: 0 auto;
+}
+
+.main__blogpost {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 1em;
+    height: 24em;
+    width: 18em;
+    color: var(--grey--000);
+    background-color: var(--red--400);
+    border-radius: 8px;
+}
+
+.main__blogpost img {
+    width: 18em;
+    height: 11em;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.main__blogpost--title {
+    font-size: 2em;
+    margin-top: 0.4em;
+    margin-bottom: 0;
+    font-family: 'GilroyBold';
+}
+
+.main__blogpost--info {
+    opacity: 0.5;
+    margin: 0;
+}
+
+.main__blogpost--description {
+    margin: 0.6em 0;
+}
+
+.main__blogpost--link {
+    background-color: var(--grey--000);
+    color: var(--red--400);
+    border-radius: 8px;
+    padding: 0.4em;
+    width: max-content;
+    display: block;
+}
+
+.main__blogpost--shadow {
+    height: 24em;
+    width: 18em;
+    padding: 0.8em;
+    border-radius: 8px;
+    background-color: var(--red--200);
+    position: absolute;
+    z-index: -1;
+}
+
+/* ---------------- Footer ---------------- */
+
+/* ---------------- Media Queries ---------------- */
