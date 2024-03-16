@@ -29,10 +29,10 @@
     --red--400: #f87171;
     --orange--200: #fed7aa;
     --orange--400: #fb923c;
-    --yellow--200: #fde68a;
-    --yellow--400: #fbbf24;
+    --yellow--200: #ffeb9c;
+    --yellow--400: #f8c84d;
     --green--200: #d9f99d;
-    --green--400: #a3e635;
+    --green--400: #99da31;
     --blue--200: #bae6fd;
     --blue--400: #38bdf8;
     --purple--200: #ddd6fe;
@@ -104,7 +104,7 @@ ul, li, a {
     flex-direction: column;
     margin: 0 auto;
     padding: 1em;
-    height: 26em;
+    min-height: 26em;
     width: 18em;
     color: var(--grey--000);
     border-radius: 8px;

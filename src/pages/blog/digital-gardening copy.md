@@ -6,7 +6,7 @@ date: '15 maart 2024'
 speaker: 'Justus Sturkenboom'
 image:
   url: '/assets/images/digital-gardening.png'
-  alt: 'Green garden'
+  alt: 'Illustration of a green garden'
 ---
 
 <!-- ![dit is de alt tag](/assets/images/digital-gardening.png) -->
