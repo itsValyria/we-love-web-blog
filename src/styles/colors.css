@@ -1,4 +1,4 @@
-/* ---------------- Main - Colors ---------------- */
+/* ---------------- Blog Post Colors ---------------- */
 li:nth-child(7n+1) {
     background-color: var(--red--400);
     
@@ -109,4 +109,34 @@ li:nth-child(7n+7) {
     & a {
         color: var(--pink--400);
     }
+}
+
+/* ---------------- Color classes ---------------- */
+
+.red {
+    color: var(--red--400);
+}
+
+.orange {
+    color: var(--orange--400);
+}
+
+.yellow {
+    color: var(--yellow--400);
+}
+
+.green {
+    color: var(--green--400);
+}
+
+.blue {
+    color: var(--blue--400);
+}
+
+.purple {
+    color: var(--purple--400);
+}
+
+.pink {
+    color: var(--pink--400);
 }
