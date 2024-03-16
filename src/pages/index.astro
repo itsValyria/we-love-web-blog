@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import BlogPost from "../components/BlogPost.astro";
+const blogPosts = await Astro.glob("./blog/*.md");
+---
+
+<Layout>
+  <section class="main__landing">
+    <h1 class="main__landing--title">Welcome to</h1>
+    <h1 class="main__landing--title">We &lt;3 Web</h1>
+    <p class="main__landing--intro">
+      This is where I, Eef, keep all the records of all the talks and news I
+      attend regarding to Front-End, Design and the Web.
+    </p>
+  </section>
+
+  <ul class="main__blogpost--container">
+    {blogPosts.map((post) => <BlogPost post={post} />)}
+  </ul>
+</Layout>
