@@ -6,13 +6,15 @@ const blogPosts = await Astro.glob("./blog/*.md");
 
 <Layout>
   <section class="main__landing">
-    <h1 class="main__landing--title">Welcome to</h1>
-    <h1 class="main__landing--title">We &lt;3 Web</h1>
-    <!-- <h1 class="main__landing--title"><span class="red">W</span><span class="orange">e </span><span class="yellow">&lt;</span><span class="green">3</span><span class="blue"> W</span><span class="purple">e</span><span class="pink">b</span></h1> -->
-    <p class="main__landing--intro">
-      This is where I, Eef, keep all the records of all the talks and news I
-      attend regarding to Front-End, Design and the Web.
-    </p>
+    <section class="main__landing--text">
+      <h1 class="main__landing--title">Welcome to</h1>
+      <h1 class="main__landing--title">We &lt;3 Web</h1>
+      <p class="main__landing--intro">
+        This is where I, Eef, keep all the records of all the talks and news I
+        attend regarding to Front-End, Design and the Web.
+      </p>
+    </section>
+    <img class="main__landing--letters" src="/assets/images/letters.png">
   </section>
 
   <ul class="main__blogpost--container">
