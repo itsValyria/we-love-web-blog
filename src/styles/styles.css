@@ -172,8 +172,4 @@ ul, li, a {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         gap: 4em 0;
     }
-
-    li:nth-last-child(5n-1) {
-        grid-column: span 4;
-    }
 }
