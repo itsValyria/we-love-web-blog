@@ -1,0 +1,17 @@
+---
+const { post } = Astro.props
+---
+
+<li class="main__blogpost">
+    <img src={post.frontmatter.image.url} alt={post.frontmatter.image.alt} />
+    <section class="main__blogpost--text">
+      <h2 class="main__blogpost--title">{post.frontmatter.title}</h2>
+      <p class="main__blogpost--info">
+        {post.frontmatter.date}, {post.frontmatter.speaker}
+      </p>
+      <p class="main__blogpost--description">
+        {post.frontmatter.description}
+      </p>
+      <a class="main__blogpost--link" href={post.url}>Lees meer ➜</a>
+    </section>
+  </li>

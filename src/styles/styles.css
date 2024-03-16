@@ -141,14 +141,6 @@ ul, li, a {
     margin: 1em 0;
 }
 
-.main__blogpost--shadow {
-    height: 26em;
-    width: 18em;
-    padding: 0.8em;
-    border-radius: 8px;
-    position: absolute;
-    z-index: -1;
-}
 
 /* ---------------- Footer ---------------- */
 

@@ -2,8 +2,8 @@
 li:nth-child(7n+1) {
     background-color: var(--red--400);
     
-    & div{
-        background-color: var(--red--200);
+    &.main__blogpost{
+        box-shadow: 10px 10px 0 0 var(--red--200);
     }
 
     & p:nth-of-type(1) {
@@ -18,8 +18,8 @@ li:nth-child(7n+1) {
 li:nth-child(7n+2) {
     background-color: var(--orange--400);
     
-    & div{
-        background-color: var(--orange--200);
+    &.main__blogpost{
+        box-shadow: 10px 10px 0 0 var(--orange--200);
     }
 
     & p:nth-of-type(1) {
@@ -34,8 +34,8 @@ li:nth-child(7n+2) {
 li:nth-child(7n+3) {
     background-color: var(--yellow--400);
     
-    & div{
-        background-color: var(--yellow--200);
+    &.main__blogpost{
+        box-shadow: 10px 10px 0 0 var(--yellow--200);
     }
 
     & p:nth-of-type(1) {
@@ -50,8 +50,8 @@ li:nth-child(7n+3) {
 li:nth-child(7n+4) {
     background-color: var(--green--400);
     
-    & div{
-        background-color: var(--green--200);
+    &.main__blogpost{
+        box-shadow: 10px 10px 0 0 var(--green--200);
     }
 
     & p:nth-of-type(1) {
@@ -66,8 +66,8 @@ li:nth-child(7n+4) {
 li:nth-child(7n+5) {
     background-color: var(--blue--400);
     
-    & div{
-        background-color: var(--blue--200);
+    &.main__blogpost{
+        box-shadow: 10px 10px 0 0 var(--blue--200);
     }
 
     & p:nth-of-type(1) {
@@ -82,8 +82,8 @@ li:nth-child(7n+5) {
 li:nth-child(7n+6) {
     background-color: var(--purple--400);
     
-    & div{
-        background-color: var(--purple--200);
+    &.main__blogpost{
+        box-shadow: 10px 10px 0 0 var(--purple--200);
     }
     
     & p:nth-of-type(1) {
@@ -98,8 +98,8 @@ li:nth-child(7n+6) {
 li:nth-child(7n+7) {
     background-color: var(--pink--400);
     
-    & div{
-        background-color: var(--pink--200);
+    &.main__blogpost{
+        box-shadow: 10px 10px 0 0 var(--pink--200);
     }
 
     & p:nth-of-type(1) {
