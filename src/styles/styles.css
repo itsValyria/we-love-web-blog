@@ -94,6 +94,10 @@ ul, li, a {
     display: none;
 }
 
+.main__landing--arrow {
+    display: none;
+}
+
 /* ---------------- Main - Blog Post ---------------- */
 
 .main__blogpost--container {
@@ -196,6 +200,12 @@ ul, li, a {
     .main__landing--letters {
         display: block;
         max-width: 36em;
+    }
+
+    .main__landing--arrow {
+        display: block;
+        margin: 0 auto;
+        width: 10em;
     }
 }
 

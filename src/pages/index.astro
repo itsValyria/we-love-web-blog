@@ -13,11 +13,12 @@ const blogPosts = await Astro.glob("./blog/*.md");
         This is where I, Eef, keep all the records of all the talks and news I
         attend regarding to Front-End, Design and the Web.
       </p>
+      <a href="#blogposts"><img class="main__landing--arrow" src="/assets/images/arrow.gif" alt="Arrow going down"></a>
     </section>
     <img class="main__landing--letters" src="/assets/images/letters.png">
   </section>
 
-  <ul class="main__blogpost--container">
+  <ul id="blogposts" class="main__blogpost--container">
     {blogPosts.map((post) => <BlogPost post={post} />)}
   </ul>
 </Layout>
