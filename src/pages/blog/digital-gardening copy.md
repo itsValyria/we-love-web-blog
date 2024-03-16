@@ -1,4 +1,5 @@
 ---
+id: '4'
 layout: '../../layouts/BlogPostLayout.astro'
 title: 'Digital Gardening'
 description: 'Vandaag hebben wij een talk gehad over Digital Gardening, IndieWeb en het web van vroeger.'

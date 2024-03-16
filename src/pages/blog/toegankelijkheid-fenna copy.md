@@ -1,4 +1,5 @@
 ---
+id: '3'
 layout: '../../layouts/BlogPostLayout.astro'
 title: 'Toegankelijkheid'
 description: 'Vandaag kwam Fenna de Wilde, oudstudent CMD, vertellen over haar gemaakte werk en toegankelijkheid.'

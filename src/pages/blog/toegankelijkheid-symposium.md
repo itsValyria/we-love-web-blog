@@ -1,4 +1,5 @@
 ---
+id: '1'
 layout: '../../layouts/BlogPostLayout.astro'
 title: 'Symposium Toegankelijkheid'
 description: 'Vandaag kwamen er drie sprekers een symposium geven over toegankelijkheid op het web.'

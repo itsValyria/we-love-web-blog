@@ -1,4 +1,5 @@
 ---
+id: '2'
 layout: '../../layouts/BlogPostLayout.astro'
 title: 'Toegankelijkheid'
 description: 'Vandaag kwam Ischa Gast, die werkt aan de website van Schiphol, vertellen over toegankelijkheid.'
