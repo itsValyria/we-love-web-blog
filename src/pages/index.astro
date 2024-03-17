@@ -19,6 +19,6 @@ const blogPosts = await Astro.glob("./blog/*.md");
   </section>
 
   <ul id="blogposts" class="main__blogpost--container">
-    {blogPosts.sort((a, b) => a.frontmatter.id - b.frontmatter.id).map((post) => <BlogPost post={post} />)}
+    {blogPosts.sort((a, b) => b.frontmatter.id - a.frontmatter.id).map((post) => <BlogPost post={post} />)}
   </ul>
 </Layout>
