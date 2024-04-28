@@ -3,8 +3,9 @@ import Layout from './Layout.astro'
 const { frontmatter } = Astro.props
 ---
 <Layout>
-    <section class="main__landing">
+    <section class="blogpost__container">
 		<h1 class="main__landing--title">{frontmatter.title}</h1>
+    <p>{frontmatter.long_description}</p>
 	  </section>
     <slot />
 </Layout>

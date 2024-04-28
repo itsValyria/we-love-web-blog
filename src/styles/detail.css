@@ -1,0 +1,28 @@
+/* ---------------- Root ---------------- */
+
+:root {
+    --grey--000: #fff;
+    --grey--200: #e4e4e7;
+    --grey--400: #a1a1aa;
+    --grey--600: #52525b;
+    --grey--800: #27272a;
+    --grey--1000: #000;
+
+    --red--200: #fecaca;
+    --red--400: #f87171;
+    --orange--200: #fed7aa;
+    --orange--400: #fb923c;
+    --yellow--200: #ffeb9c;
+    --yellow--400: #f8c84d;
+    --green--200: #d9f99d;
+    --green--400: #99da31;
+    --blue--200: #bae6fd;
+    --blue--400: #38bdf8;
+    --purple--200: #ddd6fe;
+    --purple--400: #a78bfa;
+    --pink--200: #fbcfe8;
+    --pink--400: #fb719d;
+}
+
+/* ---------------- Detail page ---------------- */
+

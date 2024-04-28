@@ -9,5 +9,3 @@ image:
   url: '/assets/images/digital-gardening.png'
   alt: 'Illustration of a green garden'
 ---
-
-<!-- ![dit is de alt tag](/assets/images/digital-gardening.png) -->
