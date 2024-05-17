@@ -4,8 +4,35 @@ const { frontmatter } = Astro.props
 ---
 <Layout>
     <section class="blogpost__container">
-		<h1 class="main__landing--title">{frontmatter.title}</h1>
-    <p>{frontmatter.long_description}</p>
-	  </section>
-    <slot />
+      
+      <a class="blogpost__back" href="/">&lt; Back</a>
+  
+      <article>
+          <h1 class="blogpost__title">{frontmatter.title}</h1>
+          <p>{frontmatter.intro}</p>
+      </article>
+  
+      <article class="blogpost__container--red">
+          <p>{frontmatter.quotes.quote_one}</p>
+      </article>
+  
+      <article class="blogpost__container">
+        <p>{ frontmatter.content.paragraph_one }</p>
+      </article>
+  
+      <article class="blogpost__container">
+        <p>{ frontmatter.content.paragraph_two }</p>
+      </article>
+  
+      <article class="blogpost__container--red">
+        <p>{frontmatter.quotes.quote_two}</p>
+      </article>
+  
+      <article class="blogpost__container">
+        <p>{ frontmatter.content.paragraph_three }</p>
+      </article>
+  
+    </section>
+
+  <slot />
 </Layout>

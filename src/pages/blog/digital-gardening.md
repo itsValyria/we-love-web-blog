@@ -8,4 +8,14 @@ speaker: 'Justus Sturkenboom'
 image:
   url: '/assets/images/digital-gardening.png'
   alt: 'Illustration of a green garden'
+
+intro: ''
+quotes:
+  quote_one: ''
+  quote_two: ''
+content:
+  paragraph_one: ''
+  paragraph_two: ''
+  paragraph_three: ''
+
 ---

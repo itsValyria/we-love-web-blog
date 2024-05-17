@@ -149,8 +149,30 @@ ul, li, a {
     margin: 1em 0;
 }
 
-
 /* ---------------- Footer ---------------- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3em 0 2em 0;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 1em;
+}
+
+.footer__socials ion-icon {
+    height: 24px;
+    width: 24px;
+    color: var(--grey--200);
+}
+
+.footer__message {
+    color: var(--grey--200);
+}
 
 /* ---------------- Media Queries ---------------- */
 
@@ -158,6 +180,12 @@ ul, li, a {
     .main__blogpost--container {
         grid-template-columns: 1fr 1fr;
         gap: 4em 0;
+    }
+    
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 2em 3em;
     }
 }
 
