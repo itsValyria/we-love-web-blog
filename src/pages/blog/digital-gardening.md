@@ -9,7 +9,7 @@ image:
   url: '/assets/images/digital-gardening.png'
   alt: 'Illustration of a green garden'
 
-intro: ''
+intro: 'Vandaag hebben we een talk gehad van onze enige echte Justus. Het ging over digital gardening, het IndieWeb en het web van vroeger.'
 quotes:
   quote_one: ''
   quote_two: ''
