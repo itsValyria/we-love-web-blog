@@ -41,7 +41,7 @@
 
 .blogpost__container--red {
     background-color: var(--red--400);
-    padding: 1em;
+    padding: 1em 0;
     color: var(--grey--000);
     border-radius: 16px;
     text-align: center;
@@ -80,7 +80,30 @@
 }
 
 @media screen and (min-width: 1500px) {
+    .blogpost__container {
+        width: 50vw;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
 
+    .blogpost__container--red {
+        width: 100%;
+    }
+
+    .blogpost__container p {
+        max-width: unset;
+    }
+
+    .blogpost__container--red {
+        max-width: unset;
+    }
+
+    .blogpost__back {
+        margin-right: auto;
+    }
 }
 
 @media screen and (min-width: 1900px) {
