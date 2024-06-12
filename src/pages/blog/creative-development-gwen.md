@@ -1,7 +1,7 @@
 ---
 id: '5'
 layout: '../../layouts/BlogPostLayout.astro'
-title: 'Creative Development'
+title: 'Creative Dev'
 description: 'Vandaag kwam Gwen ons vertellen over Dreative Developement en haar gemaakte werk.'
 date: '26 april 2024'
 speaker: 'Gwen Bogaert'
