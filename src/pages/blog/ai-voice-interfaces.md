@@ -1,5 +1,5 @@
 ---
-id: '8'
+id: '9'
 layout: '../../layouts/BlogPostLayout.astro'
 title: 'AI Voice Interfaces'
 description: 'Vandaag kwam Dave Bitter ons iets vertellen over AI powered voice interfaces.'

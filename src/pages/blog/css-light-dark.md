@@ -1,5 +1,5 @@
 ---
-id: '7'
+id: '8'
 layout: '../../layouts/BlogPostLayout.astro'
 title: 'CSS light-dark()'
 description: 'Vandaag heb ik gelezen over de nieuwe CSS light-dark() functie die ik tegenkwam in de CSS Weekly.'
