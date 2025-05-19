@@ -11,7 +11,7 @@ image:
 intro: "Vandaag heb ik me verdiept in het artikel uit de CSS Weekly ocer CSS function en CSS if(), geschreven door Bramus. Eerder heb ik me al verdiept in de CSS light-dark() functie, maar sinds de nieuwe Chrome Canary update zijn ook nested container queries support én CSS if() is toegevoegd! En als ik Bramus mag geloven, is het een game changer."
 quotes:
   quote_one: '"It is a game changer!"'
-  quote_two: '""'
+  quote_two: '"Upcoming feature..."'
 content:
   paragraph_one: "Wat wel jammer is, is dat deze post tot nog toe gaat over een upcoming feature: het is op dit moment toegevoegd aan Chrome Canary als je de experimental web features flag enabled hebt. Het is dus nog niet beschikbaar in de reguliere versie van Chrome. Wat Bramus gebouwd heeft, is een custom light-dark() die values returned op basis van welk theme geactiveerd is. Dat betekent dat, unlike de normale light-dark() deze custom versie niet gelimiteerd is aan een kleur value, maar dit kan met élke value. Een nadeel, deze custom versie kan niet responden op de local color-scheme, enkel op de light-dark media preference... tot nu. Deze limitatie kon weggehaald worden met support voor nested media queries en/of CSS if(), en beide zijn nu toegevoegd!"
   paragraph_two: "Het prototype wat Bramus gebouwd heeft, beschikt over een CSS Function die 2 arguments heeft, een --light en --dark. Met een container query kun je luisteren naar de container style, en daarmee kun je de --scheme (de kleur die je wisselt bijvoorbeeld) overschrijven naar --dark. Dus overal waar jij --scheme hebt staan, verschijnt dan de dark kleur in plaats van light. VET!"
